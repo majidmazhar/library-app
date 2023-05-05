@@ -1,0 +1,17 @@
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+    direction: rtl !important;
+    /* border-bottom: 1px solid #d5d5d5; */
+    box-shadow: 1px 1px 20px 1px #d5d5d5;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
